@@ -3,13 +3,13 @@ age = 100
 
 if age < 2:
     print("The person is a baby.")
-elif 2 <= age < 4:
+elif 2 <= age < 5:
     print("The person is a toddler.")
-elif 4 <= age < 13:
+elif 5 <= age < 12:
     print("The person is a kid.")
-elif 13 <= age < 20:
+elif 12 <= age < 20:
     print("The person is a teenager.")
-elif 20 <= age < 65:
+elif 20 <= age < 60:
     print("The person is an adult.")
 else:
     print("The person is an elder.")
