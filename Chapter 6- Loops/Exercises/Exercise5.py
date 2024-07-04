@@ -6,7 +6,7 @@ sandwich_orders = ['Chicken', 'Cheese', 'Egg', 'Roast beef', 'Wrap', 'Seafood']
 sandwich_orders += ['Chicken', 'Chicken', 'Chicken']
 
 # Dsiplay message about Seafood out of stock
-print("Sorry, Seafood sandwiches are out of stock.")
+print("Sorry, Pastramis are out of stock.")
 
 # Remove all occurrences of 'pastrami' from sandwich_orders using a while loop
 while 'Roast beef' in sandwich_orders:
@@ -15,7 +15,7 @@ while 'Roast beef' in sandwich_orders:
 # Empty list to hold finished sandwiches
 finished_sandwiches = []
 
-# Function to display current orders
+# Function to display current orders   
 def display_current_orders():
     print("\nCurrent Sandwich Orders:")
     for order in sandwich_orders:
@@ -31,7 +31,7 @@ while sandwich_orders:
         print(f"I made your {current_sandwich} sandwich.")
         finished_sandwiches.append(current_sandwich)
     else:
-        print("Apologies, no pastrami sandwiches available.")
+        print("Apologies, no pastrami sandwiches are available.")
 
 # Print all finished sandwiches
 print("\nList of sandwiches made:")
